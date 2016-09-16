@@ -25,6 +25,7 @@
     <Compile Include="Atom.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="FunctionToolbox.py" />
     <Compile Include="Initialization.py">
       <SubType>Code</SubType>
     </Compile>
