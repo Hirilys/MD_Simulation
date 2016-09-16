@@ -25,6 +25,9 @@
     <Compile Include="Atom.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Initialization.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="MD_Simulation.py" />
     <Compile Include="Potential.py">
       <SubType>Code</SubType>
