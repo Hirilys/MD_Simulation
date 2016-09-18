@@ -6,13 +6,13 @@ class Atom(object):
         self.ID = ID
         self.Position = Position
         self.Momentum = [0,0,0]
-        self.neighboor = list()
+        self.neighbour = list()
         self.Old_Position = Position
         self.Old_Momentum = [0,0,0] #Allows to keep track of momentum in the previous step
         self.Force = 0
 
-    def Update_Neighboors(self,Liste_Neighboors): #Erase old list and save new one in the variable
-        self.neighboor = Liste_Neighboors
+    def Update_Neighboors(self,Liste_Neighbours): #Erase old list and save new one in the variable
+        self.neighbour = Liste_Neighbours
 
     def Update_Force(self, Force):#Erase olf orce to save the new one in the variable
         self.Force = Force

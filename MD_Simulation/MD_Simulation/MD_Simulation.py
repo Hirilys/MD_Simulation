@@ -20,5 +20,5 @@ Atom2 = Atom(1,[10,0,0])
 radius1 = FunctionToolbox.Compute_Radius(Atom1,Atom2)
 
 Liste_Atom=[Atom1,Atom2]
-FunctionToolbox.Compute_Neighboors(Liste_Atom, 2.5)
+FunctionToolbox.Compute_Neighbours(Liste_Atom, 2.5)
 
