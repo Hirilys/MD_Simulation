@@ -14,7 +14,7 @@ FunctionToolbox.Compute_Neighbours(Liste_Atom, 2.5)
 
 Potential_LJ = Potential(1.0,0.8,6,12,1)  
 u1 = Potential_LJ.PotentialCalculation(1.2)
-f1 = Potential_LJ.Force_Calculation(1.2)
+f1 = Potential_LJ.Force_Calculation(0.8*2**(1/6))
 
 List_Atoms = list()
 for x in range(0,10):
