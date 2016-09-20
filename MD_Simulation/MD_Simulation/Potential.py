@@ -22,7 +22,7 @@ class Potential(object):
         if abs(Radius) < abs(self.Rc):
             return  self.k*self.eps*(self.m*(self.Sig/Radius)**(self.m-1.0) - self.n*(self.Sig/Radius)**(self.n-1))/(Radius**2.0) + self.Force_Calculation(self.Rc)
         if abs(Radius-self.Rc)/abs(self.Rc)<=0.001:
-            return self.k*self.eps*(self.m*(self.Sig/Radius)**(self.m-1.0) - self.n*(self.Sig/Radius)**(self.n-1))/(Radius**2.0     )
+            return self.k*self.eps*(self.m*(self.Sig/Radius)**(self.m-1.0) - self.n*(self.Sig/Radius)**(self.n-1))/(Radius**2.0)
         else:
             return 0
         
